@@ -1,4 +1,4 @@
-This is a 2D game created using pyglet, its still work in progress.
+This is a 2D game created using the 'pyglet' library, its still work in progress.
 
 The main goal is to add a neural network so the car can learn how to drive itself
 
