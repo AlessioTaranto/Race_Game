@@ -7,7 +7,7 @@ import random
 class background:
     def __init__(self):
         # Load image
-        image = pyglet.image.load("C:/Users/aless/Documents/Pyton/2D_games/Race_car/resources/background.png")
+        image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/background.png")
 
         # Create 2 (y = 500) sprites to fill the y = 1000 screen
         self.background_sprite1 = pyglet.sprite.Sprite(image, x=0, y=0)
@@ -67,10 +67,10 @@ def random_color():
 
     # Load image
     if color is 0:
-        image = pyglet.image.load("C:/Users/aless/Documents/Pyton/2D_games/Race_car/resources/flower_red.png")
+        image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/flower_red.png")
     elif color is 1:
-        image = pyglet.image.load("C:/Users/aless/Documents/Pyton/2D_games/Race_car/resources/flower_blue.png")
+        image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/flower_blue.png")
     elif color is 2:
-        image = pyglet.image.load("C:/Users/aless/Documents/Pyton/2D_games/Race_car/resources/flower_yellow.png")
+        image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/flower_yellow.png")
 
     return image

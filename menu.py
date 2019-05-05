@@ -1,11 +1,11 @@
 import pyglet
 
-#TODO: create a debug menu
+# TODO: create a debug menu
 
 class menu:
     def __init__(self):
         # Load background
-        background_image = pyglet.image.load("C:/Users/aless/Documents/Pyton/2D_games/Race_car/resources/menu_background.png")
+        background_image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/menu_background.png")
         self.background_sprite = pyglet.sprite.Sprite(background_image, x=0, y=0)
 
         # Setup texts

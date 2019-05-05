@@ -29,11 +29,11 @@ def random_color():
 
     # Load image
     if color is 0:
-        image = pyglet.image.load("C:/Users/aless/Documents/Pyton/2D_games/Race_car/resources/barrier_red.png")
+        image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/barrier_red.png")
     elif color is 1:
-        image = pyglet.image.load("C:/Users/aless/Documents/Pyton/2D_games/Race_car/resources/barrier_yellow.png")
+        image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/barrier_yellow.png")
     elif color is 2:
-        image = pyglet.image.load("C:/Users/aless/Documents/Pyton/2D_games/Race_car/resources/barrier_blue.png")
+        image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/barrier_blue.png")
 
     return image
 

@@ -1,5 +1,4 @@
-from abc import ABCMeta
-
+import os
 import pyglet
 from pyglet.window import key, FPSDisplay
 
@@ -8,6 +7,7 @@ from barrier import barrier
 from car import car
 from menu import menu
 
+# TODO: implement a better image finding system
 
 class Game_Window(pyglet.window.Window):
     def __init__(self):
@@ -118,7 +118,6 @@ class Game_Window(pyglet.window.Window):
         car_x = []
         for x in range(self.race_car.posx, self.race_car.posx + self.race_car.car_lenght):
             car_x.append(x)
-
         car_y = []
         for x in range(self.race_car.posy - 15, self.race_car.posy):
             car_y.append(x)
