@@ -27,8 +27,9 @@ class Game_Window(pyglet.window.Window):
         self.background = background()
         self.menu = menu()
         self.race_car = car()
+        self.set_icon(self.race_car.car_image)
         self.barriers = []
-        self.start_score = 600
+        self.start_score = 0
         self.score = self.start_score
 
     def on_key_press(self, symbol, modifiers):

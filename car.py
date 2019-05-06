@@ -16,8 +16,8 @@ class car:
         self.steering = 0
 
         # Load car image
-        car_image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/car.png")
-        self.car_sprite = pyglet.sprite.Sprite(car_image, x = self.posx, y = self.posy)
+        self.car_image = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/car.png")
+        self.car_sprite = pyglet.sprite.Sprite(self.car_image, x = self.posx, y = self.posy)
  
         # Load dirt gif image
         dirt_left = pyglet.image.load("C:/Users/aless/Documents/Python/2D_games/Race_car2D/Images/dirt_left.png")
